@@ -1,0 +1,28 @@
+/* Reveal Nav Links (0.9s to 1.6s) */
+.navLinks {
+  --reveal-duration: 0.5s;
+  --reveal-interval: 0.1s;
+  --reveal-delay: 0.9s;
+}
+.navLinks li:nth-child(1) {
+  animation: slideDown 0.6s ease-out
+    calc(0 * var(--reveal-interval) + var(--reveal-delay)) 1 both;
+}
+.navLinks li:nth-child(2) {
+  animation: slideDown 0.6s ease-out
+    calc(1 * var(--reveal-interval) + var(--reveal-delay)) 1 both;
+}
+.navLinks li:nth-child(3) {
+  animation: slideDown 0.6s ease-out
+    calc(2 * var(--reveal-interval) + var(--reveal-delay)) 1 both;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+  }
+}

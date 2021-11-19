@@ -1,0 +1,24 @@
+/* Reveal about portion (0.9s to 1.6s) */
+.aboutContainer {
+  --reveal-duration: 0.5s;
+  --reveal-interval: 0.1s;
+  --reveal-delay: 0.9s;
+}
+.aboutContainer h2 {
+  animation: slideUp var(--reveal-duration) ease-out
+    calc(0 * var(--reveal-interval) + var(--reveal-delay)) 1 both;
+}
+.aboutContainer svg {
+  animation: slideUp var(--reveal-duration) ease-out
+    calc(1 * var(--reveal-interval) + var(--reveal-delay)) 1 both;
+}
+.aboutContainer p {
+  animation: slideUp var(--reveal-duration) ease-out
+    calc(2 * var(--reveal-interval) + var(--reveal-delay)) 1 both;
+}
+@keyframes slideUp {
+  from {
+    transform: translateY(2.5rem) scale(0.9);
+    opacity: 0%;
+  }
+}

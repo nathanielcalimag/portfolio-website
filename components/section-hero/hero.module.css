@@ -1,0 +1,31 @@
+/* Reveal hero elements (0s to 0.9s) */
+.heroContainer {
+  --reveal-duration: 0.5s;
+  --reveal-interval: 0.1s;
+}
+.heroContainer p {
+  animation: slideUp var(--reveal-duration) ease-out
+    calc(0 * var(--reveal-interval)) 1 both;
+}
+.heroContainer h1 {
+  animation: slideUp var(--reveal-duration) ease-out
+    calc(1 * var(--reveal-interval)) 1 both;
+}
+.heroContainer h2 {
+  animation: slideUp var(--reveal-duration) ease-out
+    calc(2 * var(--reveal-interval)) 1 both;
+}
+.heroContainer div {
+  animation: slideUp var(--reveal-duration) ease-out
+    calc(3 * var(--reveal-interval)) 1 both;
+}
+.heroContainer svg {
+  animation: slideUp var(--reveal-duration) ease-out
+    calc(4 * var(--reveal-interval)) 1 both;
+}
+@keyframes slideUp {
+  from {
+    transform: translateY(2.5rem) scale(0.8);
+    opacity: 0%;
+  }
+}

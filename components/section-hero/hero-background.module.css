@@ -1,0 +1,9 @@
+/* Reveal hero background (0s to 0.9s) */
+.div {
+  animation: slideDown 0.9s ease-out 0s 1 both;
+}
+@keyframes slideDown {
+  from {
+    transform: translateY(-48rem);
+  }
+}
