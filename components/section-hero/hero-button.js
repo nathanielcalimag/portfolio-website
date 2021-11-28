@@ -1,14 +1,14 @@
-import Link from "next/link";
+import { navigationHandler } from "../../includes/helpers";
 
 const HeroButton = (props) => {
   return (
-    <Link href="/">
-      <a
-        className={`w-full py-3 text-xl font-semibold rounded-lg shadow-md ${props.classes}`}
-      >
-        {props.text}
-      </a>
-    </Link>
+    <a
+      className={`w-full py-3 text-xl font-semibold rounded-full shadow-md ${props.classes}`}
+      href={props.href}
+      onClick={navigationHandler}
+    >
+      {props.text}
+    </a>
   );
 };
 

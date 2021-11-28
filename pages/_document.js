@@ -13,7 +13,7 @@ class MyDocument extends Document {
           />
         </Head>
 
-        <body className="bg-gray-50 text-gray-600">
+        <body className="bg-gray-50 text-gray-600 sm:text-xl lg:text-2xl">
           <Main />
           <NextScript />
         </body>

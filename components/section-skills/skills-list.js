@@ -10,7 +10,7 @@ import { useInView } from "react-intersection-observer";
 const SkillsList = (props) => {
   // Slide in technologies when scrolled into view
   const { ref, inView } = useInView({
-    threshold: 0.6,
+    threshold: 0.3,
     triggerOnce: true,
   });
 
@@ -66,7 +66,10 @@ const SkillsList = (props) => {
   ];
 
   return (
-    <ul className={`space-y-5 text-lg font-medium ${props.classes}`} ref={ref}>
+    <ul
+      className={`space-y-5 text-lg font-medium lg:space-y-0 lg:gap-y-10 lg:gap-x-6 lg:grid lg:grid-cols-2 ${props.classes}`}
+      ref={ref}
+    >
       {technologies.map((technology, index) => (
         <SkillsListItem
           name={technology.name}
@@ -75,7 +78,7 @@ const SkillsList = (props) => {
           logoClasses={technology.logoClasses}
           codeClasses={technology.codeClasses}
           key={technology.name}
-          delay={(index - 1) * 0.1}
+          delay={0.2 + (index - 1) * 0.1}
           reveal={inView}
         >
           {technology.logo}

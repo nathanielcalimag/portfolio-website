@@ -1,6 +1,10 @@
 const SvgLogoVue = () => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <svg
+      className="w-full h-auto"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+    >
       <title>Logo Vue</title>
       <path
         d="M256 144.03l-55.49-96.11h-79.43L256 281.61 390.92 47.92h-79.43L256 144.03z"

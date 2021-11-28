@@ -10,9 +10,12 @@ function MyApp({ Component, pageProps }) {
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <Nav />
-      <div id="pageTop" />
+      <div />
       <Component {...pageProps} />
       <Footer />
     </>

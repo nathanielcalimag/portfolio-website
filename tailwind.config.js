@@ -6,6 +6,10 @@ module.exports = {
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      xs: "480px",
+      ...defaultTheme.screens,
+    },
     extend: {
       fontFamily: {
         sans: ["Rubik", ...defaultTheme.fontFamily.sans],
@@ -14,9 +18,6 @@ module.exports = {
         orange: colors.orange,
         lime: colors.lime,
         sky: colors.sky,
-      },
-      screens: {
-        xs: "480px",
       },
       zIndex: {
         "-10": "-10",
@@ -33,7 +34,7 @@ module.exports = {
         ".container": {
           maxWidth: "100%",
           "@screen xs": {
-            maxWidth: "608px",
+            maxWidth: "432px",
           },
           "@screen sm": {
             maxWidth: "608px",

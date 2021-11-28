@@ -8,7 +8,7 @@ const SkillsListItem = (props) => {
         {props.children}
       </div>
       <p
-        className={`flex-1 py-2 pl-7 pr-3 ml-8 tracking-wide shadow-md rounded-xl flex justify-between items-center text-gray-700 ${
+        className={`flex items-center justify-between flex-1 py-2 pr-3 ml-8 tracking-wide text-gray-700 shadow-md pl-7 rounded-xl ${
           props.nameClasses
         } ${props.reveal ? "scale-x-100" : "-translate-x-1/2 scale-x-0"}`}
         style={{
@@ -18,7 +18,7 @@ const SkillsListItem = (props) => {
       >
         {props.name}{" "}
         <span
-          className={`font-mono text-xs tracking-tighter ${props.codeClasses}`}
+          className={`font-mono text-xs tracking-tighter sm:text-sm lg:text-xs xl:text-sm ${props.codeClasses}`}
         >
           {props.code}
         </span>

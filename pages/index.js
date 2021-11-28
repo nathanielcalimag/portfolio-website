@@ -18,24 +18,45 @@ export default function Home() {
     );
 
     // Scrolling to top of page on reload
-    const pageReloadHandler = () => window.scrollTo(0, 0);
-    window.addEventListener("beforeunload", pageReloadHandler);
+    window.history.scrollRestoration = "manual";
 
     return () => {
       document.body.style.overflow = "unset";
       clearTimeout(timer);
-      window.removeEventListener("beforeunload", pageReloadHandler);
     };
-  });
+  }, []);
 
   return (
     <>
       <Head>
-        <title>Nathaniel Calimag | Frontend Developer</title>
+        <title>Nathaniel Calimag | Web Developer</title>
         <meta
           name="description"
           content="Web developer and NUS Computer Science undergraduate from Singapore."
         />
+
+        <meta property="og:title" content="Nathaniel Calimag | Web Developer" />
+        <meta name="og:url" content="https://www.nathanielcalimag.com" />
+        <meta
+          property="og:description"
+          content="Web developer and NUS Computer Science undergraduate from Singapore."
+        />
+        <meta property="og:image" content="/static/img/logo.png" />
+        <meta property="og:type" content="website" />
+
+        <meta
+          name="twitter:title"
+          content="Nathaniel Calimag | Web Developer"
+        />
+        <meta name="twitter:site" content="https://www.nathanielcalimag.com" />
+        <meta
+          name="twitter:description"
+          content="Web developer and NUS Computer Science undergraduate from Singapore."
+        />
+        <meta name="twitter:image" content="/static/img/logo.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <link rel="canonical" href="https://www.nathanielcalimag.com" />
       </Head>
       <main>
         <Hero />

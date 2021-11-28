@@ -4,6 +4,6 @@
 }
 @keyframes slideDown {
   from {
-    transform: translateY(-48rem);
+    transform: translateY(-480px);
   }
 }
