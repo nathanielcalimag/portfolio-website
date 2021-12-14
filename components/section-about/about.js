@@ -14,8 +14,8 @@ const About = () => {
           <p className="leading-7 text-justify sm:leading-8 lg:leading-10">
             I took interest in{" "}
             <strong className="font-semibold">frontend&nbsp;development</strong>{" "}
-            and <strong className="font-semibold">web&nbsp;design</strong> on
-            May 2021 and eventually learned enough to deploy my first website{" "}
+            and <strong className="font-semibold">web&nbsp;design</strong> in
+            2021 and eventually learned enough to deploy my first website{" "}
             <a
               className="text-blue-800 md:hover:underline"
               href="https://www.sgunistats.com"
@@ -24,9 +24,9 @@ const About = () => {
             >
               sgunistats.com
             </a>{" "}
-            on September 2021. Now, I spend my free time improving my frontend
-            skills, learning backend technologies and working on personal
-            projects.
+            that very year. Now, I spend my spare time improving my web
+            development skills, working on personal projects and learning about
+            Computer Science.
           </p>
         </div>
       </div>

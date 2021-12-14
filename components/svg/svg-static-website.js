@@ -24,22 +24,22 @@ const SvgStaticWebsite = (props) => {
       <path
         d="M807.41965,376.52959a49.57145,49.57145,0,0,0-20.70373.48865,49.483,49.483,0,0,0,1.46357-20.91986,49.19363,49.19363,0,0,0-18.50638,11.94255,49.193,49.193,0,0,0-9.51152-19.86558,49.48244,49.48244,0,0,0-9.70867,18.58827A49.57169,49.57169,0,0,0,733.07115,355.505s-3.09015,15.716,4.34937,28.61187c6.62151,11.47786,19.34349,16.84908,22.06311,17.8924l.06371.07642.03418-.03883c.276.10469.43054.15809.43054.15809s.05845-.30187.139-.84058c.04889-.0604.09834-.12183.15239-.18961.01056.086.02049.16416.03051.24122-.21353.50116-.32189.789-.32189.789s.15966.0354.44964.09076l.00877.051.09429-.03174c2.8634.53547,16.51408,2.622,28.16579-3.68844C801.82182,391.5365,807.41965,376.52959,807.41965,376.52959Z"
         transform="translate(-92.43613 -187)"
-        fill="#CBD5E1"
+        fill="#94A3B8"
       >
         <animate
           attributeName="fill"
           dur="2.4s"
           repeatCount="indefinite"
-          values="#CBD5E1;#EFF6FF;#CBD5E1;#CBD5E1"
+          values="#94A3B8;#EFF6FF;#94A3B8;#94A3B8"
           keyTimes="0;0.2;0.4;1"
         />
       </path>
-      <circle cx="689.59221" cy="138.35165" r="11.03237" fill="#CBD5E1">
+      <circle cx="689.59221" cy="138.35165" r="11.03237" fill="#94A3B8">
         <animate
           attributeName="fill"
           dur="2.4s"
           repeatCount="indefinite"
-          values="#CBD5E1;#EFF6FF;#CBD5E1;#CBD5E1"
+          values="#94A3B8;#EFF6FF;#94A3B8;#94A3B8"
           keyTimes="0;0.1;0.3;1"
         />
       </circle>
@@ -49,13 +49,13 @@ const SvgStaticWebsite = (props) => {
         width="344.54948"
         height="7.4962"
         transform="translate(51.74221 -376.0588) rotate(15.79009)"
-        fill="#CBD5E1"
+        fill="#94A3B8"
       >
         <animate
           attributeName="fill"
           dur="2.4s"
           repeatCount="indefinite"
-          values="#CBD5E1;#EFF6FF;#CBD5E1;#CBD5E1"
+          values="#94A3B8;#EFF6FF;#94A3B8;#94A3B8"
           keyTimes="0;0.3;0.4;1"
         />
       </rect>
@@ -65,13 +65,13 @@ const SvgStaticWebsite = (props) => {
         width="59.40508"
         height="59.40508"
         transform="translate(55.49076 -341.31883) rotate(15.79009)"
-        fill="#CBD5E1"
+        fill="#94A3B8"
       >
         <animate
           attributeName="fill"
           dur="2.4s"
           repeatCount="indefinite"
-          values="#CBD5E1;#EFF6FF;#CBD5E1;#CBD5E1"
+          values="#94A3B8;#EFF6FF;#94A3B8;#94A3B8"
           keyTimes="0;0.4;0.5;1"
         />
       </rect>
@@ -81,13 +81,13 @@ const SvgStaticWebsite = (props) => {
         width="59.40508"
         height="59.40508"
         transform="translate(67.66575 -369.07379) rotate(15.79009)"
-        fill="#CBD5E1"
+        fill="#94A3B8"
       >
         <animate
           attributeName="fill"
           dur="2.4s"
           repeatCount="indefinite"
-          values="#CBD5E1;#EFF6FF;#CBD5E1;#CBD5E1"
+          values="#94A3B8;#EFF6FF;#94A3B8;#94A3B8"
           keyTimes="0;0.4;0.5;1"
         />
       </rect>
@@ -97,13 +97,13 @@ const SvgStaticWebsite = (props) => {
         width="59.40508"
         height="59.40508"
         transform="translate(79.84073 -396.82874) rotate(15.79009)"
-        fill="#CBD5E1"
+        fill="#94A3B8"
       >
         <animate
           attributeName="fill"
           dur="2.4s"
           repeatCount="indefinite"
-          values="#CBD5E1;#EFF6FF;#CBD5E1;#CBD5E1"
+          values="#94A3B8;#EFF6FF;#94A3B8;#94A3B8"
           keyTimes="0;0.4;0.5;1"
         />
       </rect>
@@ -113,13 +113,13 @@ const SvgStaticWebsite = (props) => {
         width="44.12949"
         height="5.09186"
         transform="translate(66.59275 -336.44884) rotate(15.79009)"
-        fill="#CBD5E1"
+        fill="#94A3B8"
       >
         <animate
           attributeName="fill"
           dur="2.4s"
           repeatCount="indefinite"
-          values="#CBD5E1;#EFF6FF;#CBD5E1;#CBD5E1"
+          values="#94A3B8;#EFF6FF;#94A3B8;#94A3B8"
           keyTimes="0;0.5;0.55;1"
         />
       </rect>
@@ -129,13 +129,13 @@ const SvgStaticWebsite = (props) => {
         width="44.12949"
         height="5.09186"
         transform="translate(78.76773 -364.20379) rotate(15.79009)"
-        fill="#CBD5E1"
+        fill="#94A3B8"
       >
         <animate
           attributeName="fill"
           dur="2.4s"
           repeatCount="indefinite"
-          values="#CBD5E1;#EFF6FF;#CBD5E1;#CBD5E1"
+          values="#94A3B8;#EFF6FF;#94A3B8;#94A3B8"
           keyTimes="0;0.5;0.55;1"
         />
       </rect>
@@ -145,13 +145,13 @@ const SvgStaticWebsite = (props) => {
         width="44.12949"
         height="5.09186"
         transform="translate(90.94272 -391.95875) rotate(15.79009)"
-        fill="#CBD5E1"
+        fill="#94A3B8"
       >
         <animate
           attributeName="fill"
           dur="2.4s"
           repeatCount="indefinite"
-          values="#CBD5E1;#EFF6FF;#CBD5E1;#CBD5E1"
+          values="#94A3B8;#EFF6FF;#94A3B8;#94A3B8"
           keyTimes="0;0.5;0.55;1"
         />
       </rect>

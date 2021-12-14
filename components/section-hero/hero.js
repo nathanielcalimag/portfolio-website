@@ -31,11 +31,13 @@ const Hero = () => {
               classes="bg-gray-700 text-gray-50 md:hover:bg-gray-900 md:transition md:duration-300"
               text="My Projects"
               href="#projects"
+              external={false}
             />
             <HeroButton
               classes="bg-gray-50 border border-gray-500 md:hover:bg-gray-200 md:transition md:duration-300"
-              text="Contact Me"
-              href="#contact"
+              text="Resume"
+              href="/nathaniel_calimag_resume.pdf"
+              external={true}
             />
           </div>
         </div>

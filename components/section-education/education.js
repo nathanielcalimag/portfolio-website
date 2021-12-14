@@ -13,7 +13,7 @@ const Education = () => {
             cardClasses="bg-gradient-to-br from-lime-100 to-green-200"
             textClasses="text-green-800"
             institute="Temasek Junior College"
-            timeframe="2018-2019"
+            timeframe="Jan 2018 - Dec 2019"
           >
             <p className="mb-2 text-xs font-medium sm:text-base lg:text-lg">
               Physics • Chemistry • Math • Economics
@@ -32,7 +32,7 @@ const Education = () => {
             cardClasses="bg-gradient-to-br from-sky-100 to-blue-200"
             textClasses="text-blue-800"
             institute="National University of&nbsp;Singapore"
-            timeframe="2022-2026"
+            timeframe="Aug 2022 - Jun 2026"
           >
             <p className="mb-2 text-xs font-medium text-gray-700 sm:text-base lg:text-lg">
               Computer Science

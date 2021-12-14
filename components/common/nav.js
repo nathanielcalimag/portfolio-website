@@ -67,11 +67,12 @@ const Nav = () => {
 
           <li>
             <a
-              href="#contact"
+              href="/nathaniel_calimag_resume.pdf"
               className="md:transition md:duration-300 md:after:duration-300 md:hover:text-blue-700 after:bottom-0 md:after:block md:after:h-0.5 md:after:left-1/2 md:after:absolute md:after:bg-blue-700 md:after:transition-all md:after:w-0 md:hover:after:w-full md:hover:after:left-0"
-              onClick={navigationHandler}
+              target="_blank"
+              rel="noreferrer"
             >
-              Contact
+              Resume
             </a>
           </li>
         </ul>

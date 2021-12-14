@@ -1,8 +1,9 @@
 import SvgLogoPython from "../svg/svg-logo-python";
 import SvgLogoFirebase from "../svg/svg-logo-firebase";
 import SkillsList from "./skills-list";
-import SvgLogoNode from "../svg/svg-logo-node";
-import SvgLogoMongodb from "../svg/svg-logo-mongodb";
+// import SvgLogoNode from "../svg/svg-logo-node";
+// import SvgLogoMongodb from "../svg/svg-logo-mongodb";
+import SvgGitBranch from "../svg/svg-git-branch";
 
 const Skills = () => {
   return (
@@ -31,6 +32,12 @@ const Skills = () => {
           </li>
           <li>
             <div className="inline-flex items-center gap-2">
+              <SvgGitBranch classes="w-7 h-7" />
+              <p>Git / GitHub</p>
+            </div>
+          </li>
+          {/* <li>
+            <div className="inline-flex items-center gap-2">
               <SvgLogoNode classes="w-7 h-7" />
               <p>Node.js</p>
             </div>
@@ -40,7 +47,7 @@ const Skills = () => {
               <SvgLogoMongodb classes="w-7 h-7" />
               <p>MongoDB</p>
             </div>
-          </li>
+          </li> */}
         </ul>
       </div>
     </section>

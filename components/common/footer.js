@@ -13,8 +13,8 @@ const Footer = () => {
       content: "Twitter",
     },
     {
-      href: "/",
-      content: "Linkedin",
+      href: "https://www.linkedin.com/in/nathanielcalimag/",
+      content: "LinkedIn",
     },
   ];
   return (

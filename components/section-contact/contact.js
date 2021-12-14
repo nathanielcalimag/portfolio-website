@@ -16,14 +16,10 @@ const Contact = () => {
       content: <SvgLogoTwitter />,
     },
     {
-      href: "/",
+      href: "https://www.linkedin.com/in/nathanielcalimag/",
       content: <SvgLogoLinkedin />,
     },
   ];
-
-  const copyEmailHandler = async () =>
-    await navigator.clipboard.writeText("calimag.nat@gmail.com");
-
   return (
     <section id="contact">
       <div className="container px-4 pt-12 pb-20 mx-auto lg:pt-20 lg:pb-36">
@@ -37,14 +33,14 @@ const Contact = () => {
               listClasses="mb-8 mx-auto flex w-48 justify-between"
               linkClasses="w-10 h-10"
             />
-            <div
-              className="relative flex items-center justify-between px-4 py-2 mx-auto cursor-pointer w-44 sm:w-56 bg-gray-50 rounded-xl group md:active:bg-blue-50"
-              onClick={copyEmailHandler}
-            >
+            <div className="relative flex items-center justify-between px-4 py-2 mx-auto cursor-pointer w-36 sm:w-44 bg-gray-50 rounded-xl group active:bg-blue-50">
               <div className="absolute inset-0 bg-gradient-to-r md:group-hover:blur-md md:transition md:duration-300 from-sky-400 to-blue-500 opacity-40 blur -z-10" />
-              <p className="font-semibold lg:text-xl group-active:text-blue-800">
-                Copy my email
-              </p>
+              <a
+                className="font-semibold lg:text-xl group-active:text-blue-800"
+                href="mailto:calimagdev@gmail.com"
+              >
+                E-mail me
+              </a>
               <SvgEmail classes="w-7 h-auto sm:w-8" />
             </div>
           </div>
