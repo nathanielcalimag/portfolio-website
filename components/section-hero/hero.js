@@ -23,7 +23,7 @@ const Hero = () => {
             <strong className="font-semibold text-gray-700">
               web developer
             </strong>{" "}
-            and a prospective Computer Science student from NUS.
+            and a Computer Science student from NUS.
           </h2>
 
           <div className="flex gap-4 mx-auto mb-12 text-center xs:w-11/12 sm:w-10/12 md:w-9/12 lg:mx-0">

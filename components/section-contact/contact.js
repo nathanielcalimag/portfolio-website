@@ -33,16 +33,16 @@ const Contact = () => {
               listClasses="mb-8 mx-auto flex w-48 justify-between"
               linkClasses="w-10 h-10"
             />
-            <div className="relative flex items-center justify-between px-4 py-2 mx-auto cursor-pointer w-36 sm:w-44 bg-gray-50 rounded-xl group active:bg-blue-50">
+            <a
+              className="relative flex items-center justify-between px-4 py-2 mx-auto cursor-pointer w-36 sm:w-44 bg-gray-50 rounded-xl group active:bg-blue-50"
+              href="mailto:calimagdev@gmail.com"
+            >
               <div className="absolute inset-0 bg-gradient-to-r md:group-hover:blur-md md:transition md:duration-300 from-sky-400 to-blue-500 opacity-40 blur -z-10" />
-              <a
-                className="font-semibold lg:text-xl group-active:text-blue-800"
-                href="mailto:calimagdev@gmail.com"
-              >
+              <p className="font-semibold lg:text-xl group-active:text-blue-800">
                 E-mail me
-              </a>
+              </p>
               <SvgEmail classes="w-7 h-auto sm:w-8" />
-            </div>
+            </a>
           </div>
           <SvgNotifications classes="hidden md:block w-full h-auto" />
         </div>

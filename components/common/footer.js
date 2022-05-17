@@ -6,7 +6,7 @@ const Footer = () => {
   const socialLinks = [
     {
       href: "https://github.com/nathanielcalimag",
-      content: "Github",
+      content: "GitHub",
     },
     {
       href: "https://twitter.com/nathaniel_ca",
@@ -39,7 +39,7 @@ const Footer = () => {
           Made with Next.js, React and Tailwind CSS.
         </p>
         <p className="text-xs sm:text-base lg:text-lg">
-          © 2021 Nathaniel Calimag. All rights reserved.
+          © 2022 Nathaniel Calimag. All rights reserved.
         </p>
       </div>
     </footer>

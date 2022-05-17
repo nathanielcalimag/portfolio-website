@@ -93,7 +93,7 @@ const Projects = () => {
             </a>{" "}
             is a responsive Vue website with university data and tools for
             anyone looking to be a student in any Singapore local university.
-            The website is self-sustaining, being funding by the ad revenue it
+            The website is self-sustaining, being funded by the ad revenue it
             generates through Google Adsense. SGUniStats is my first web
             development project which I deployed in Sep 2021.
           </p>
@@ -102,20 +102,20 @@ const Projects = () => {
         <div className="mb-12 space-y-2 lg:space-y-3">
           <h4 className="text-lg font-semibold text-gray-700 sm:text-xl md:text-2xl lg:text-3xl">
             Performance{" "}
-            <span className="font-normal text-gray-600">(Nov 2021)</span>
+            <span className="font-normal text-gray-600">(First 6 months)</span>
           </h4>
           <p>
-            <strong className="font-medium">5400</strong>+ ad impressions
+            <strong className="font-medium">30,000</strong>+ Google clicks
           </p>
           <p>
-            <strong className="font-medium">40%</strong> ad impression growth
+            <strong className="font-medium">200,000</strong> search impressions
           </p>
           <p>
-            <strong className="font-medium">104%</strong> ad revenue increase
+            <strong className="font-medium">$75</strong> peak daily revenue
           </p>
           <p>
-            <strong className="font-medium">First page result</strong> for
-            search terms such as:
+            <strong className="font-medium">First Google result</strong> for
+            30+ search terms such as:
           </p>
           <ul className="italic leading-9 list-disc list-inside">
             <li>igp calculator</li>
